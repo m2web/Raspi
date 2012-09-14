@@ -2,7 +2,7 @@
 import RPi.GPIO as GPIO, time
 
 GPIO.setmode(GPIO.BCM)
-GREEN_LDE = 18
+GREEN_LED = 18
 RED_LED = 23
 GPIO.setup(GREEN_LED, GPIO.OUT)
 GPIO.setup(RED_LED, GPIO.OUT)
